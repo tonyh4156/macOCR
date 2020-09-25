@@ -21,7 +21,7 @@ Step 4: If the script does not run, go to System Preferences -> Security & Priva
 
 # Sample Output
 
-![Sample Image](test.png)
+![Sample](test.jpg)
 
 Recognized text: \
 ["HELLO WORLD"] \
