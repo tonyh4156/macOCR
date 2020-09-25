@@ -26,7 +26,7 @@ let validLangs = ["en-US", "fr-FR", "it-IT", "de-DE", "es-ES", "pt-BR", "zh-Hans
 let arguments = CommandLine.arguments
 
 if (arguments.count < 2 || arguments.count > 4) {
-    print("Format: ./MemesOCR [filepath_to_image] [language_optional]")
+    print("Format: ./macOCR [filepath_to_image] [language_optional]")
     exit(0)
 }
 
