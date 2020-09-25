@@ -39,10 +39,10 @@ if (arguments.count == 3) {
 if (arguments.count == 3 && !validLangs.contains(language)) {
     print("Could not recognize language. Here's the supported list:")
     
-    do {
+    if #available(OSX 11.0, *) {
         print(try VNRecognizeTextRequest.supportedRecognitionLanguages(for: .accurate, revision: VNRecognizeTextRequestRevision2))
-    }
-    catch {
+    } else {
+        // Fallback on earlier versions
         print(["en-US"])
     }
     exit(0)
