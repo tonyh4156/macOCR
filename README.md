@@ -10,7 +10,7 @@ To run OCR on just English: macOS 10.15+
 English, French, Italian, German, Spanish, Portuguese, Chinese-Simplified, Chinese-Traditional
 
 # How to Run
-Step 1: Download the Unix script in the release section on github. \
+Step 1: Download the Unix script in the releases section on github. \
 Step 2: In Terminal, change the permission to be executable by navigating to the folder where the script was downloaded and run the following: 
         chmod +x macOCR \
 Step 3: To run the script, run the following: ./macOCR [filepath_to_image] [language_optional] \
