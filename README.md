@@ -2,11 +2,12 @@
 A simple macOS command line tool for reading text from images.
 
 # Requirements
-In order to run OCR on all of the supported languages below: macOS 11.0+ \
-In order to run OCR on just English: macOS 10.15+
+To run OCR on all of the supported languages below: macOS 11.0+ \
+To run OCR on just English: macOS 10.15+
 
 # Supported Languages
-["en-US", "fr-FR", "it-IT", "de-DE", "es-ES", "pt-BR", "zh-Hans", "zh-Hant"]
+["en-US", "fr-FR", "it-IT", "de-DE", "es-ES", "pt-BR", "zh-Hans", "zh-Hant"] \
+English, French, Italian, German, Spanish, Portuguese, Chinese-Simplified, Chinese-Traditional
 
 # How to Run
 Step 1: Download the Unix script in the release section on github. \
