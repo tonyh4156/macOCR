@@ -20,9 +20,12 @@ Step 3: To run the script, run the following: ./macOCR [filepath_to_image] [lang
 Step 4: If the script does not run, go to System Preferences -> Security & Privacy -> General -> Open Anyway. Then, try step 3 again.
 
 # Sample Output
+
+![Sample Image](test.png)
+
 Recognized text: \
-["MemesOCR"] \
+["HELLO WORLD"] \
 Normalized bounding box: \
-[(0.10272222473507836, 0.036003947257995605, 0.8173753079913912, 0.6106745302677155)] \
+[(0.4765024185180664, 0.4225632985432942, 0.2846009254455566, 0.0780948215060765)] \
 Confidence: \
-[0.3] 
+[0.3] \
