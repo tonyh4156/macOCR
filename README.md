@@ -13,8 +13,9 @@ Step 1: Download the Unix script in the release section on github. \
 Step 2: In Terminal, change the permission to be executable by navigating to the folder where the script was downloaded and run the following: 
         chmod +x macOCR \
 Step 3: To run the script, run the following: ./macOCR [filepath_to_image] [language_optional] \
-        For example: "./macOCR ./1.jpg" will use the default English OCR to analyze the file 1.jpg in the same folder as the script. \
-                     "./macOCR ./1.jpg zh-Hant" will use the Chinese OCR to analyze the file 1.jpg in the same folder as the script. \
+        For example: \
+        "./macOCR ./1.jpg" will use the default English OCR to analyze the file 1.jpg in the same folder as the script. \
+        "./macOCR ./1.jpg zh-Hant" will use the Chinese OCR to analyze the file 1.jpg in the same folder as the script. \
 Step 4: If the script does not run, go to System Preferences -> Security & Privacy -> General -> Open Anyway. Then, try step 3 again.
 
 # Sample Output
